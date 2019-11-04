@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sdxxtop.guardianapp.ui.activity.HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_home_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+        android:visibility="gone"
+        android:id="@+id/ahn_home_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.sdxxtop.guardianapp.ui.widget.bottom_tab.CustomBottomTab
+        android:background="@color/translate"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/cbt_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

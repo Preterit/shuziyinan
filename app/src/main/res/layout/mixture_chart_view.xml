@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/ll_text"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FAFBFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="序号"
+                android:textColor="#313131"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="时间数据"
+                android:textColor="#313131"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_pm1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="PM2.5"
+                android:textColor="#313131"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_pm2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="PM10"
+                android:textColor="#313131"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_temperature"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="温度"
+                android:textColor="#313131"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_humidity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="湿度"
+                android:textColor="#313131"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_chart"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#C490BF" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PM2.5"
+                    android:textColor="#C490BF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#00B7EE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PM10"
+                    android:textColor="#00B7EE"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/imaginary_line" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="预警线 50"
+                    android:textColor="@color/color_999999"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.sdxxtop.guardianapp.ui.widget.chart.CustomBarChartView
+            android:id="@+id/cbcv_bar_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp" />
+
+        <com.sdxxtop.guardianapp.ui.widget.chart.CustomLineChartView
+            android:id="@+id/clcv_line_view"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical"
+            android:id="@+id/text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <com.sdxxtop.guardianapp.ui.widget.autoscroll.AutoScrollRecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:background="@color/white"
+                tools:visibility="visible"
+                android:visibility="gone"
+                android:id="@+id/tv_list_nodata"
+                android:textColor="#F7BD33"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:text="暂无数据"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/show_text"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/shape_text_select_normal"
+            android:textSize="15sp"
+            android:text="文本图"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/show_bar"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/shape_text_select"
+            android:textSize="15sp"
+            android:text="柱状图"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/show_line"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/shape_text_select_normal"
+            android:textSize="15sp"
+            android:text="曲线图"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

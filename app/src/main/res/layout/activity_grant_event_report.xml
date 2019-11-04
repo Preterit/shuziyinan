@@ -6,7 +6,7 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:leftLayoutIconIsGray="true"
@@ -27,7 +27,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.sdxxtop.guardianapp.ui.widget.GERTimeSelectView
+            <com.sdxxtop.shuziyinan.ui.widget.GERTimeSelectView
                 android:id="@+id/time_select"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -40,7 +40,7 @@
                 android:textColor="@color/color_292929"
                 android:textSize="15sp" />
 
-            <com.sdxxtop.guardianapp.ui.widget.CustomEventLayout
+            <com.sdxxtop.shuziyinan.ui.widget.CustomEventLayout
                 android:visibility="gone"
                 android:id="@+id/cel_view"
                 android:layout_width="match_parent"
@@ -211,7 +211,7 @@
                 android:textSize="15sp" />
 
 
-            <com.sdxxtop.guardianapp.ui.widget.PieChartView
+            <com.sdxxtop.shuziyinan.ui.widget.PieChartView
                 android:id="@+id/pie_chart1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -221,7 +221,7 @@
                 app:pie_title="上报事件统计"
                 app:tv_prev_is_show="false" />
 
-            <com.sdxxtop.guardianapp.ui.widget.PieChartView
+            <com.sdxxtop.shuziyinan.ui.widget.PieChartView
                 android:id="@+id/pie_chart2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

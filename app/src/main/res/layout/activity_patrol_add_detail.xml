@@ -11,7 +11,7 @@
     android:orientation="vertical"
     tools:context=".ui.activity.PatrolAddDetailActivity">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:leftLayoutIconIsGray="true"

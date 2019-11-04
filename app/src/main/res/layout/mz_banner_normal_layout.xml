@@ -3,12 +3,12 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-     <com.sdxxtop.guardianapp.ui.widget.mzbanner.CustomViewPager
+     <com.sdxxtop.shuziyinan.ui.widget.mzbanner.CustomViewPager
          android:id="@+id/mzbanner_vp"
          android:layout_width="match_parent"
          android:layout_height="wrap_content">
 
-     </com.sdxxtop.guardianapp.ui.widget.mzbanner.CustomViewPager>
+     </com.sdxxtop.shuziyinan.ui.widget.mzbanner.CustomViewPager>
      <RelativeLayout
          android:layout_width="match_parent"
          android:layout_height="wrap_content"

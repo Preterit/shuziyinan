@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context=".ui.activity.EventMoveActivity">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:leftLayoutIconIsGray="true"
@@ -16,7 +16,7 @@
 
     <include layout="@layout/item_course_list_line_recycler"/>
 
-    <com.sdxxtop.guardianapp.ui.widget.TextAndTextView
+    <com.sdxxtop.shuziyinan.ui.widget.TextAndTextView
         android:id="@+id/event_report"
         app:tatv_text_right_hint_value="选择流转部门"
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
         android:textColor="#333333"
         android:textSize="17sp"/>
 
-    <com.sdxxtop.guardianapp.ui.widget.NumberEditTextView
+    <com.sdxxtop.shuziyinan.ui.widget.NumberEditTextView
         android:id="@+id/et_num_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -8,7 +8,7 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:id="@+id/titleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
         app:titleColor="@color/white"
         app:titleValue="通讯录" />
 
-    <!--<com.sdxxtop.guardianapp.ui.widget.SearchView-->
+    <!--<com.sdxxtop.shuziyinan.ui.widget.SearchView-->
     <!--android:id="@+id/sv_search"-->
     <!--android:layout_width="match_parent"-->
     <!--android:layout_height="wrap_content" />-->
@@ -86,7 +86,7 @@
         <!--android:layout_height="wrap_content"-->
         <!--android:src="@drawable/maillist" />-->
 
-        <com.sdxxtop.guardianapp.ui.widget.SideIndexBar
+        <com.sdxxtop.shuziyinan.ui.widget.SideIndexBar
             android:id="@+id/index_bar"
             android:layout_width="30dp"
             android:layout_height="match_parent"

@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context=".ui.activity.DeviceDataDetailActivity">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:leftLayoutIconIsGray="true"
@@ -16,12 +16,12 @@
 
     <include layout="@layout/item_course_list_line_recycler"/>
 
-    <com.sdxxtop.guardianapp.ui.widget.DeviceDetailTimeSelect
+    <com.sdxxtop.shuziyinan.ui.widget.DeviceDetailTimeSelect
         android:id="@+id/ddts_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.sdxxtop.guardianapp.ui.widget.chart.CustomBarChartView
+    <com.sdxxtop.shuziyinan.ui.widget.chart.CustomBarChartView
         android:id="@+id/cbcv_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

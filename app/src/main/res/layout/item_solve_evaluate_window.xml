@@ -24,7 +24,7 @@
             android:textSize="17sp"
             android:textStyle="bold"/>
 
-        <com.sdxxtop.guardianapp.ui.widget.EvaluateSelectView
+        <com.sdxxtop.shuziyinan.ui.widget.EvaluateSelectView
             android:id="@+id/esv_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -39,7 +39,7 @@
         android:layout_marginBottom="10dp"
         android:text="描述(选填)"/>
 
-    <com.sdxxtop.guardianapp.ui.widget.NumberEditTextView
+    <com.sdxxtop.shuziyinan.ui.widget.NumberEditTextView
         android:id="@+id/et_num_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

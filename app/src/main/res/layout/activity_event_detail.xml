@@ -9,7 +9,7 @@
     android:clipToPadding="true"
     tools:context=".ui.activity.EventDetailActivity">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         app:titleValue="任务详情"
         app:leftLayoutIconIsGray="true"
         app:titleColor="@color/black"
@@ -87,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <com.sdxxtop.guardianapp.ui.widget.fly_calendarview.MixtureChartView
+            <com.sdxxtop.shuziyinan.ui.widget.fly_calendarview.MixtureChartView
                 android:id="@+id/mixturechartview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />

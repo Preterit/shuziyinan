@@ -15,7 +15,7 @@
         android:orientation="vertical">
 
 
-        <com.sdxxtop.guardianapp.ui.widget.TitleView
+        <com.sdxxtop.shuziyinan.ui.widget.TitleView
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="90dp">
 
-                    <com.sdxxtop.guardianapp.ui.widget.CustomProgressBar
+                    <com.sdxxtop.shuziyinan.ui.widget.CustomProgressBar
                         android:id="@+id/cpb_progress"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>

@@ -9,7 +9,7 @@
               android:fitsSystemWindows="true"
               android:orientation="vertical">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,14 +45,14 @@
                 android:paddingBottom="5dp"
                 android:text="解决问题的简要描述"/>
 
-            <com.sdxxtop.guardianapp.ui.widget.NumberEditTextView
+            <com.sdxxtop.shuziyinan.ui.widget.NumberEditTextView
                 android:id="@+id/et_num_content_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
 
-        <com.sdxxtop.guardianapp.ui.widget.CustomVideoImgSelectView
+        <com.sdxxtop.shuziyinan.ui.widget.CustomVideoImgSelectView
             android:id="@+id/cvisv_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
                 android:paddingBottom="5dp"
                 android:text="备注"/>
 
-            <com.sdxxtop.guardianapp.ui.widget.NumberEditTextView
+            <com.sdxxtop.shuziyinan.ui.widget.NumberEditTextView
                 android:id="@+id/et_num_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

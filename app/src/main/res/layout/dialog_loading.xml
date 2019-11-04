@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:padding="15dp">
 
-    <com.sdxxtop.guardianapp.ui.dialog.LoadingSpinView
+    <com.sdxxtop.shuziyinan.ui.dialog.LoadingSpinView
         android:layout_width="30dp"
         android:layout_height="30dp" />
 

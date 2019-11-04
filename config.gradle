@@ -3,7 +3,7 @@ ext {
                 compileSdkVersion: 28,
                 //这个高版本的AS不需要
                 buildToolsVersion: "26.0.2",
-                applicationId    : "com.sdxxtop.guardianapp",
+                applicationId    : "com.sdxxtop.shuziyinan",
                 minSdkVersion    : 19,
                 targetSdkVersion : 28,
                 versionCode      : 10200,

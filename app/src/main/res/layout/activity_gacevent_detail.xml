@@ -7,7 +7,7 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,14 +25,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <com.sdxxtop.guardianapp.ui.widget.CustomAreaSelectView
+        <com.sdxxtop.shuziyinan.ui.widget.CustomAreaSelectView
             android:id="@+id/casv_left"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"/>
 
-        <com.sdxxtop.guardianapp.ui.widget.CustomAreaSelectView
+        <com.sdxxtop.shuziyinan.ui.widget.CustomAreaSelectView
             android:id="@+id/casv_right"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.sdxxtop.guardianapp.ui.widget.EnterpriseTabTitleView
+            <com.sdxxtop.shuziyinan.ui.widget.EnterpriseTabTitleView
                 android:id="@+id/ett_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

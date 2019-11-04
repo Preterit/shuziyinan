@@ -44,7 +44,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="数字罗庄"
+                            android:text="数字沂南"
                             android:textColor="@color/white"
                             android:textSize="24sp"
                             android:textStyle="bold" />
@@ -190,7 +190,7 @@
                     android:layout_width="15dp"
                     android:layout_height="13dp" />
 
-                <com.sdxxtop.guardianapp.ui.widget.AutoTextView
+                <com.sdxxtop.shuziyinan.ui.widget.AutoTextView
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@+id/iv_temp"
                     android:id="@+id/autotextview"
@@ -214,7 +214,7 @@
 
             </RelativeLayout>
 
-            <com.sdxxtop.guardianapp.ui.widget.UnScrolGridView
+            <com.sdxxtop.shuziyinan.ui.widget.UnScrolGridView
                 android:listSelector="@android:color/transparent"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"

@@ -7,7 +7,7 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
             android:textColor="@color/color_292929"
             android:textSize="15sp"/>
 
-        <com.sdxxtop.guardianapp.ui.widget.GERTimeSelectView
+        <com.sdxxtop.shuziyinan.ui.widget.GERTimeSelectView
             android:id="@+id/gertsv_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

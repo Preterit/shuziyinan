@@ -147,13 +147,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.sdxxtop.guardianapp.ui.widget.chart.CustomBarChartView
+        <com.sdxxtop.shuziyinan.ui.widget.chart.CustomBarChartView
             android:id="@+id/cbcv_bar_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp" />
 
-        <com.sdxxtop.guardianapp.ui.widget.chart.CustomLineChartView
+        <com.sdxxtop.shuziyinan.ui.widget.chart.CustomLineChartView
             android:id="@+id/clcv_line_view"
             android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
@@ -167,7 +167,7 @@
             android:layout_width="match_parent"
             android:layout_height="170dp">
 
-            <com.sdxxtop.guardianapp.ui.widget.autoscroll.AutoScrollRecyclerView
+            <com.sdxxtop.shuziyinan.ui.widget.autoscroll.AutoScrollRecyclerView
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />

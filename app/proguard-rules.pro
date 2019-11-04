@@ -59,8 +59,8 @@
 -keep public class * extends android.content.BroadcastReceiver
 -keep public class * extends android.content.ContentProvider
 
--keep class com.sdxxtop.guardianapp.model.bean.**{*;}
--keep class com.sdxxtop.guardianapp.BuildConfig  {*;}
+-keep class com.sdxxtop.shuziyinan.model.bean.**{*;}
+-keep class com.sdxxtop.shuziyinan.BuildConfig  {*;}
 
 #3D 地图 V5.0.0之后：
 -keep   class com.amap.api.maps.**{*;}
@@ -210,7 +210,7 @@
 -keep class cn.qqtheme.** { *; }
 -dontwarn cn.qqtheme.**
 
--keep class com.sdxxtop.guardianapp.utils.SystemUtil { *; }
+-keep class com.sdxxtop.shuziyinan.utils.SystemUtil { *; }
 
 
 # 阿里云推送
@@ -248,7 +248,7 @@
     public static **[] values();
     public static ** valueOf(java.lang.String);
 }
--keep public class com.sdxxtop.guardianapp.R$*{
+-keep public class com.sdxxtop.shuziyinan.R$*{
     public static final int *;
 }
 

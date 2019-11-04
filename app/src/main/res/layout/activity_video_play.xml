@@ -6,7 +6,7 @@
     android:background="#B2000000"
     android:orientation="vertical">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:bgColor="#B2000000"
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="300dp">
 
-        <com.sdxxtop.guardianapp.ui.widget.DanmukuVideoView
+        <com.sdxxtop.shuziyinan.ui.widget.DanmukuVideoView
             android:background="@color/translate"
             android:id="@+id/player"
             android:layout_width="match_parent"

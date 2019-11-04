@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.sdxxtop.guardianapp.ui.activity.HomeActivity">
+    tools:context="com.sdxxtop.shuziyinan.ui.activity.HomeActivity">
 
     <FrameLayout
         android:id="@+id/fl_home_container"
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.sdxxtop.guardianapp.ui.widget.bottom_tab.CustomBottomTab
+    <com.sdxxtop.shuziyinan.ui.widget.bottom_tab.CustomBottomTab
         android:background="@color/translate"
         android:layout_alignParentBottom="true"
         android:id="@+id/cbt_view"

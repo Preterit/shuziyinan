@@ -9,7 +9,7 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,14 +31,14 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.sdxxtop.guardianapp.ui.widget.CustomVideoImgSelectView
+            <com.sdxxtop.shuziyinan.ui.widget.CustomVideoImgSelectView
                 android:id="@+id/cvisv_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp" />
 
-            <com.sdxxtop.guardianapp.ui.widget.TextAndEditView
+            <com.sdxxtop.shuziyinan.ui.widget.TextAndEditView
                 android:id="@+id/taev_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -54,14 +54,14 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <com.sdxxtop.guardianapp.ui.widget.TextAndTextView
+                    <com.sdxxtop.shuziyinan.ui.widget.TextAndTextView
                         android:id="@+id/tatv_report_path"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:tatv_text_right_hint_value="请点击选择"
                         app:tatv_text_view="责任部门" />
 
-                    <com.sdxxtop.guardianapp.ui.widget.TextAndTextView
+                    <com.sdxxtop.shuziyinan.ui.widget.TextAndTextView
                         android:id="@+id/tatv_query"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
                         app:tatv_text_img_is_show="false"
                         app:tatv_text_view="发现方式" />
 
-                    <com.sdxxtop.guardianapp.ui.widget.TextAndTextView
+                    <com.sdxxtop.shuziyinan.ui.widget.TextAndTextView
                         android:id="@+id/tatv_happen"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                         android:textColor="@color/color_303030"
                         android:textSize="17sp" />
 
-                    <com.sdxxtop.guardianapp.ui.widget.NumberEditTextView
+                    <com.sdxxtop.shuziyinan.ui.widget.NumberEditTextView
                         android:id="@+id/net_content"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
                         android:textColor="@color/color_303030"
                         android:textSize="17sp" />
 
-                    <com.sdxxtop.guardianapp.ui.widget.NumberEditTextView
+                    <com.sdxxtop.shuziyinan.ui.widget.NumberEditTextView
                         android:id="@+id/net_content_position"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
@@ -127,7 +127,7 @@
                         android:layout_height="500dp"
                         android:background="#99000000" />
 
-                    <com.sdxxtop.guardianapp.ui.widget.MaxHeightRecyclerView
+                    <com.sdxxtop.shuziyinan.ui.widget.MaxHeightRecyclerView
                         android:id="@+id/title_recycler"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

@@ -15,7 +15,7 @@
         android:layout_width="250dp"
         android:layout_height="160dp">
 
-        <com.sdxxtop.guardianapp.ui.widget.RoundRectImageView
+        <com.sdxxtop.shuziyinan.ui.widget.RoundRectImageView
             android:id="@+id/iv_icon"
             android:scaleType="center"
             android:src="@drawable/bg_home_new"

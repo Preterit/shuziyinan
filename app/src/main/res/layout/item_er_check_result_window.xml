@@ -50,7 +50,7 @@
         android:layout_marginBottom="10dp"
         android:text="备注" />
 
-    <com.sdxxtop.guardianapp.ui.widget.NumberEditTextView
+    <com.sdxxtop.shuziyinan.ui.widget.NumberEditTextView
         android:id="@+id/et_num_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

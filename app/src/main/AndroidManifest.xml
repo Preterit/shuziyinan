@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sdxxtop.guardianapp">
+    package="com.sdxxtop.shuziyinan">
 
     <application
         android:name=".app.App"
@@ -139,7 +139,7 @@
             android:value="true" />
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="81974efe8098da9206a13898e4dc47a4" />
+            android:value="65a13f78522dad5c6d2a21452c9f9bd8" />
         <meta-data
             android:name="max_aspect"
             android:value="2.1" />
@@ -151,10 +151,10 @@
             android:value="754" />
         <meta-data
             android:name="com.alibaba.app.appkey"
-            android:value="27562646" />
+            android:value="28107546" />
         <meta-data
             android:name="com.alibaba.app.appsecret"
-            android:value="95e2d08511e79f602eb7f11c4255f14c" />
+            android:value="2d1071811c527a17ef829dc69204a2aa" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

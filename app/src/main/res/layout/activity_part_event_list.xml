@@ -13,7 +13,7 @@
         android:background="@color/white"
         android:orientation="vertical">
 
-        <com.sdxxtop.guardianapp.ui.widget.TitleView
+        <com.sdxxtop.shuziyinan.ui.widget.TitleView
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,12 +24,12 @@
             android:layout_height="1dp"
             android:background="@color/color_E0E0E0"/>
 
-        <com.sdxxtop.guardianapp.ui.widget.GERTimeSelectView
+        <com.sdxxtop.shuziyinan.ui.widget.GERTimeSelectView
             android:id="@+id/gertsv_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <com.sdxxtop.guardianapp.ui.widget.CustomAreaSelectView
+        <com.sdxxtop.shuziyinan.ui.widget.CustomAreaSelectView
             android:id="@+id/casv_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

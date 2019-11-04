@@ -21,7 +21,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent">
 
-            <com.sdxxtop.guardianapp.ui.widget.RoundRectImageView
+            <com.sdxxtop.shuziyinan.ui.widget.RoundRectImageView
                 android:id="@+id/banner_image"
                 android:scaleType="center"
                 android:layout_width="match_parent"

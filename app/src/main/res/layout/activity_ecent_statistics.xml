@@ -7,7 +7,7 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:id="@+id/title"
         app:rightTextValue="上一级"
         app:rightTextColor="@color/black"
@@ -116,7 +116,7 @@
         android:layout_height="1dp"
         android:background="#E4E4E4" />
 
-    <com.sdxxtop.guardianapp.ui.widget.CustomNoSlideViewPager
+    <com.sdxxtop.shuziyinan.ui.widget.CustomNoSlideViewPager
         android:layout_marginTop="1dp"
         android:layout_below="@+id/tablayout"
         android:id="@+id/viewpager"

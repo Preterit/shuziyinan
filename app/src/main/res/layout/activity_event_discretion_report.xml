@@ -10,7 +10,7 @@
     android:orientation="vertical"
     tools:context=".ui.activity.EventDiscretionReportActivity">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:id="@+id/titleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,14 +36,14 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.sdxxtop.guardianapp.ui.widget.CustomVideoImgSelectView
+            <com.sdxxtop.shuziyinan.ui.widget.CustomVideoImgSelectView
                 android:id="@+id/cvisv_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"/>
 
-            <com.sdxxtop.guardianapp.ui.widget.TextAndEditView
+            <com.sdxxtop.shuziyinan.ui.widget.TextAndEditView
                 android:id="@+id/taev_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <com.sdxxtop.guardianapp.ui.widget.TextAndTextView
+                    <com.sdxxtop.shuziyinan.ui.widget.TextAndTextView
                         android:id="@+id/tatv_happen"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
                         android:textColor="@color/color_303030"
                         android:textSize="17sp"/>
 
-                    <com.sdxxtop.guardianapp.ui.widget.NumberEditTextView
+                    <com.sdxxtop.shuziyinan.ui.widget.NumberEditTextView
                         android:id="@+id/net_content"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -85,12 +85,12 @@
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="5dp"/>
 
-                    <com.sdxxtop.guardianapp.ui.widget.TextAndCheckBoxView
+                    <com.sdxxtop.shuziyinan.ui.widget.TextAndCheckBoxView
                         android:id="@+id/tacbv_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
 
-                    <com.sdxxtop.guardianapp.ui.widget.TextAndTextView
+                    <com.sdxxtop.shuziyinan.ui.widget.TextAndTextView
                         tools:visibility="visible"
                         android:visibility="gone"
                         android:id="@+id/tatv_end_time"

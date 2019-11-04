@@ -7,7 +7,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.activity.FlyEventReportActivity">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         app:leftLayoutIsShow="true"
         app:titleColor="@color/white"
         app:bgColor="@color/green"
@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.sdxxtop.guardianapp.ui.widget.TextAndEditView
+            <com.sdxxtop.shuziyinan.ui.widget.TextAndEditView
                 android:id="@+id/taev_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -77,14 +77,14 @@
 
             </LinearLayout>
 
-            <com.sdxxtop.guardianapp.ui.widget.TextAndTextView
+            <com.sdxxtop.shuziyinan.ui.widget.TextAndTextView
                 android:id="@+id/tatv_part"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:tatv_text_right_hint_value="请点击选择"
                 app:tatv_text_view="部门" />
 
-            <com.sdxxtop.guardianapp.ui.widget.TextAndTextView
+            <com.sdxxtop.shuziyinan.ui.widget.TextAndTextView
                 android:id="@+id/tatv_uav"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
                 android:textColor="@color/color_303030"
                 android:textSize="17sp" />
 
-            <com.sdxxtop.guardianapp.ui.widget.NumberEditTextView
+            <com.sdxxtop.shuziyinan.ui.widget.NumberEditTextView
                 android:id="@+id/net_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

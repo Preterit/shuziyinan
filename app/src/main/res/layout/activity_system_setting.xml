@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context=".ui.activity.SystemSettingActivity">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:bgColor="@color/green"
@@ -86,7 +86,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="设置方法：安全中心->应用智能省电->数字罗庄->无限制"
+            android:text="设置方法：安全中心->应用智能省电->数字沂南->无限制"
             android:textColor="@color/color_313131"
             android:textSize="12sp"/>
 

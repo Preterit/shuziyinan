@@ -7,7 +7,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.activity.FlyEventDetailActivity">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         app:titleValue="任务详情"
         app:leftLayoutIconIsGray="true"
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                     android:layout_height="match_parent" />
             </LinearLayout>
 
-            <com.sdxxtop.guardianapp.ui.widget.MaxHeightRecyclerView
+            <com.sdxxtop.shuziyinan.ui.widget.MaxHeightRecyclerView
                 android:visibility="gone"
                 tools:visibility="visible"
                 android:layout_marginTop="10dp"

@@ -10,7 +10,7 @@
     android:fitsSystemWindows="true"
     tools:context=".ui.activity.ReCheckActivity">
 
-    <com.sdxxtop.guardianapp.ui.widget.TitleView
+    <com.sdxxtop.shuziyinan.ui.widget.TitleView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:leftLayoutIconIsGray="true"
@@ -32,7 +32,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.sdxxtop.guardianapp.ui.widget.CustomVideoImgSelectView
+            <com.sdxxtop.shuziyinan.ui.widget.CustomVideoImgSelectView
                 android:id="@+id/cvisv_view"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
@@ -54,7 +54,7 @@
                     android:textColor="@color/color_303030"
                     android:textSize="17sp"/>
 
-                <com.sdxxtop.guardianapp.ui.widget.NumberEditTextView
+                <com.sdxxtop.shuziyinan.ui.widget.NumberEditTextView
                     android:id="@+id/net_content"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

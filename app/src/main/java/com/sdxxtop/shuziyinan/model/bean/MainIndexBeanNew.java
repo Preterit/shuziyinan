@@ -27,7 +27,7 @@ public class MainIndexBeanNew {
         public String title;
         public String end_date;
     }
-    public class WheelPlantingVideo {
+    public static class WheelPlantingVideo {
         public int video_id;
         public String title;
         public String cover_img;

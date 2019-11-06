@@ -114,8 +114,10 @@ public class HomeFragment extends BaseMvpFragment<HomeFragmentPresenter> impleme
         homeTabAdapter = new MyHomeTabAdapter();
         gridview.setAdapter(homeTabAdapter);
 
+        List<MainIndexBeanNew.WheelPlantingVideo> list = new ArrayList<>();
+        list.add(new MainIndexBeanNew.WheelPlantingVideo());
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), RecyclerView.HORIZONTAL, false));
-        adapter = new HomeImageAdapter(null);
+        adapter = new HomeImageAdapter(list);
         recyclerView.setAdapter(adapter);
     }
 

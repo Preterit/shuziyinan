@@ -23,6 +23,7 @@
             android:layout_height="160dp" />
 
         <ImageView
+            android:id="@+id/iv_play_icon"
             android:layout_centerInParent="true"
             android:src="@drawable/play"
             android:layout_width="wrap_content"

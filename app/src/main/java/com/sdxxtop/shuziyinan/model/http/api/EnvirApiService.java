@@ -1,6 +1,5 @@
 package com.sdxxtop.shuziyinan.model.http.api;
 
-import com.sdxxtop.shuziyinan.BuildConfig;
 import com.sdxxtop.shuziyinan.model.bean.AllarticleBean;
 import com.sdxxtop.shuziyinan.model.bean.ArticleIndexBean;
 import com.sdxxtop.shuziyinan.model.bean.AuthDataBean;
@@ -68,9 +67,9 @@ import retrofit2.http.Path;
 
 public interface EnvirApiService {
 
-    String BASE_URL = BuildConfig.DEBUG ? "http://envir.test.sdxxtop.com/api/" : "http://envir.sdxxtop.com/api/";
+//    String BASE_URL = BuildConfig.DEBUG ? "http://envir.test.sdxxtop.com/api/" : "http://envir.sdxxtop.com/api/";
 //    String BASE_URL = "http://envir.test.sdxxtop.com/api/";  // 测试
-//    String BASE_URL = "http://envir.dev.sdxxtop.com/api/";  // 预发布环境的
+    String BASE_URL = "http://envir-yinan.sdxxtop.com/api/";  // 线上
 
     @FormUrlEncoded
     @POST("app/init")
